@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.env
+.venv/
+venv/
+
+# Local/raw course-project data and the untouched sensitive backup.
+Original_Datas/
+Integrated_data/
+backup_original_20260811/
+
+# Generated portfolio artifacts are local by default.
+outputs/
