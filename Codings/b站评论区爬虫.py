@@ -50,7 +50,7 @@ class BilibiliCommentsSpider:
         if self.cookie:
             self.session.headers.update({"Cookie": self.cookie})
 
-    def get_aid(self) -> int:#获取aid
+    def get_aid(self) -> int:#获取aid内容
         video_url = self.video_url
         if "b23.tv" in video_url:
             video_url = self.session.head(video_url, allow_redirects=True, timeout=10).url
