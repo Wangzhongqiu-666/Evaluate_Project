@@ -1,5 +1,5 @@
 """Generate corrected charts, a portfolio-ready DOCX/PDF, and presentation notes."""
-
+"""视化报告生成脚本"""
 from __future__ import annotations
 
 import json
